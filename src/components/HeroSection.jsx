@@ -1,7 +1,7 @@
 const HeroSection = () => {
   return (
     <section id="home" className="bg-white dark:bg-gray-900 text-black dark:text-white min-h-screen flex items-center py-16 md:py-24 px-6">
-      <div className="container  mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-10">
+      <div className="container mx-auto max-w-7xl flex flex-col-reverse md:flex-row items-center justify-between gap-10">
 
         {/* Left Text Content */}
         <div className="w-full md:w-1/2 space-y-5 text-center md:text-left">

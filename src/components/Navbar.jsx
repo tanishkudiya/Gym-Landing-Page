@@ -19,7 +19,7 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="bg-green-800 dark:bg-gray-900 sticky top-0 text-white px-6 py-4 shadow-md flex justify-between items-center relative z-50">
+      <header className="bg-green-800 mx-auto dark:bg-gray-900 sticky top-0 text-white px-6 md:px-32 py-4 shadow-md flex justify-between items-center z-50">
         {/* Logo */}
         <div className="text-2xl font-bold text-green-400 cursor-pointer">PulseFit</div>
 
